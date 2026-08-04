@@ -1,4 +1,9 @@
 package com.dsa.sorting;
+/*
+Bubble Sort is one of the simplest sorting algorithms.
+It works by repeatedly stepping through a list, comparing adjacent elements, and swapping them if they are in the wrong order.
+This process repeats until the entire list is sorted.
+*/
 
 import java.util.Arrays;
 
