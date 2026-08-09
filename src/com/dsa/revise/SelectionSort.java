@@ -1,16 +1,4 @@
-package com.dsa.sorting;
-//Selection Sort repeatedly finds the smallest element
-// from the unsorted part of the array and places it at the correct position.
-
-/* Pattern
-i → current position
-     ↓
-search remaining array
-     ↓
-find minimum index
-     ↓
-swap with i
-*  */
+package com.dsa.revise;
 
 import java.util.Arrays;
 
@@ -28,9 +16,9 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
         }
         System.out.println(Arrays.toString(arr));
     }
